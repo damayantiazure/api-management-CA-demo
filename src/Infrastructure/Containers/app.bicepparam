@@ -1,7 +1,7 @@
 using 'app.bicep'
 
-var appname = 'myapp-demo-1'
-var appEnv = 'myapp-demo-1-env'
+var appname = 'containerapp-demo-api'
+var appEnv = 'Containerapp-demo-env'
 
 param uamiName = '${appname}-uami-${appEnv}'
 
