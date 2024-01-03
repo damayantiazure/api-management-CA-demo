@@ -7,7 +7,7 @@ var appEnv = 'Containerapp-demo-env'
 param uamiName = '${appname}-uami-${appEnv}'
 
 param imageName = 'neptune-webapi'
-param tagName = readEnvironmentVariable('TAG_NAME')
+param tagName = 'demotag'
 param containerRegistryName = '${appname}contregistry${appEnv}'
 param acaEnvName = '${appname}-appenv-${appEnv}'
 
