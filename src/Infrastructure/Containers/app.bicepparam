@@ -1,15 +1,14 @@
 using 'app.bicep'
 
-var appname = readEnvironmentVariable('APP_NAME')
-var appEnv = readEnvironmentVariable('APP_ENV')
+var appname = 'myapp-demo-1'
+var appEnv = 'myapp-demo-1-env'
 
 param uamiName = '${appname}-uami-${appEnv}'
 
 param imageName = 'neptune-webapi'
-param tagName = readEnvironmentVariable('TAG_NAME')
+param tagName = 'demoapp'
 param containerRegistryName = '${appname}contregistry${appEnv}'
 param acaEnvName = '${appname}-appenv-${appEnv}'
 
 param appInsightName = '${appname}-appinsights-${appEnv}'
-param azureDevOpsOrg = 'moim' 
-
+param azureDevOpsOrg = 'damayantibhuyan' 
