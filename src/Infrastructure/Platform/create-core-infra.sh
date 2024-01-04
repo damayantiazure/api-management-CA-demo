@@ -1,4 +1,4 @@
-#!/bin/bash
+
 
 export resourceGroupName="APIM-Dev-Containerapps"
 export location="westeurope"
