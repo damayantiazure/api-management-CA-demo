@@ -9,7 +9,7 @@ param uamiName string
 param appInsightName string
 param azureDevOpsOrg string 
 
-resource acaEnvironment 'Microsoft.App/managedEnvironments@2022-03-01'  existing = {   name: acaEnvName }
+resource acaEnvironment 'Microsoft.App/managedEnvironments@2022-11-01-preview'  existing = {   name: acaEnvName }
 resource uami 'Microsoft.ManagedIdentity/userAssignedIdentities@2018-11-30' existing = { name: uamiName }
 resource appInsights 'Microsoft.Insights/components@2020-02-02' existing = { name: appInsightName }
 
