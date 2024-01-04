@@ -1,8 +1,8 @@
 #!/bin/bash
 
-export resourceGroupName="APIM-DevOps-Containerapps"
+export resourceGroupName="APIM-Dev-Containerapps"
 export location="westeurope"
-export APP_NAME="solar"
+export APP_NAME="solardemo1"
 export APP_ENV="dev"
 
 echo "Starting Infrastructure provisioning..."
