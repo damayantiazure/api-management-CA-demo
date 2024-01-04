@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export resourceGroupName="APIM-DEVOPS"
+export resourceGroupName="APIM-DevOps-Containerapps"
 export location="westeurope"
 export APP_NAME="solar"
 export APP_ENV="dev"
